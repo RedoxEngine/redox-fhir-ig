@@ -1,0 +1,95 @@
+{
+    "sct-edition": "http://snomed.info/sct/731000124108",
+    "paths": {
+        "pages": "pages",
+        "temp": "temp",
+        "specification": "http://hl7.org/fhir/DSTU3",
+        "output": "output",
+        "qa": "qa",
+        "resources": [
+            "resources",
+            "examples"
+        ],
+        "txCache": "txCache"
+    },
+    "fixed-business-version": "1.0.0",
+    "tool": "jekyll",
+    "canonicalBase": "http://fhir.org/guides/redox",
+    "defaults": {
+        "Practitioner": {
+            "template-base": "ex.html"
+        },
+        "MedicationOrder": {
+            "template-base": "ex.html"
+        },
+        "ValueSet": {
+            "template-base": "vs.html"
+        },
+        "Patient": {
+            "template-base": "ex.html"
+        },
+        "Observation": {
+            "template-base": "ex.html"
+        },
+        "Goal": {
+            "template-base": "ex.html"
+        },
+        "Encounter": {
+            "template-base": "ex.html"
+        },
+        "CarePlan": {
+            "template-base": "ex.html"
+        },
+        "DiagnosticReport": {
+            "template-base": "ex.html"
+        },
+        "StructureDefinition": {
+            "template-mappings": "sd-mappings.html",
+            "template-base": "sd.html",
+            "template-defns": "sd-definitions.html"
+        },
+        "Bundle": {
+            "template-base": "ex.html"
+        },
+        "AllergyIntolerance": {
+            "template-base": "ex.html"
+        },
+        "MedicationStatement": {
+            "template-base": "ex.html"
+        },
+        "Condition": {
+            "template-base": "ex.html"
+        },
+        "ConceptMap": {
+            "template-base": "cm.html"
+        },
+        "Procedure": {
+            "template-base": "ex.html"
+        },
+        "DocumentReference": {
+            "template-base": "ex.html"
+        },
+        "Immunization": {
+            "template-base": "ex.html"
+        },
+        "Any": {
+            "template-format": "format.html",
+            "template-base": "base.html"
+        },
+        "Medication": {
+            "template-base": "ex.html"
+        },
+        "Device": {
+            "template-base": "ex.html"
+        }
+    },
+    "extraTemplates": [
+        "mappings"
+    ],
+    "source": "ig.xml",
+    "resources": {
+    },
+    "version": "1.0.0",
+    "spreadsheets": [
+    ]
+}
